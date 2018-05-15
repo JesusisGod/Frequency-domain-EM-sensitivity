@@ -1,4 +1,5 @@
-# Name of the program: ANALYTIC_SENSITIVITY_FREQ_DOMAIN_EM.m
+# Computation of analytical sensitivity matrix for the frequency-domain EM data: MATLAB code 
+Name of the program: ANALYTIC_SENSITIVITY_FREQ_DOMAIN_EM.m
 Title of manuscript: Computation of analytical sensitivity matrix for the frequency-domain EM data: MATLAB code.
 Author name: Jide Nosakare Ogunbo
 Affiliation: The Federal University of Technology, Akure
