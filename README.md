@@ -21,5 +21,8 @@ for data/model resolution analysis, experimental design and particularly nonline
 inversion 1D frequency EM data. It is simply a harvest of speed gain without loss
 in accuracy.
 
-The DRIVER.m gives the usage of the code.
+The document "Jide_Ogunbo_Instruction guide on running the MATLAB code.doc" gives a
+description on the usage of the code.
+
+The DRIVER.m is a sample code for running the code.
 The OUTPUT.txt shows the result of the example in the DRIVER.m
