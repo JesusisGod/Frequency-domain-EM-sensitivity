@@ -62,7 +62,7 @@ for ifreq=1:lf
             n=NL-j;
             nume=u_j(:,n)-u_j(:,n+1);                            % Numerator of eqn (7)
             deno=u_j(:,n)+u_j(:,n+1);                            % Denominator of eqn (7)
-            
+            if(sum(nume)==0), nume=1e-6*ones(size(nume)); end    % Avoid NaN from consecutive layers with equal layer resistivity in dFj_dsigj from S2nd when Rj=Fjp1=0 from nume=0
             Rj(:,n)=nume./deno;                                  % Eqn (7)
 
             nume2=Rj(:,n)+Y_j(:,n+1);                            % Part of numerator in eqn (9)
